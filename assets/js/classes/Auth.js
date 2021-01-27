@@ -18,9 +18,9 @@ export default class Auth {
             localStorage.setItem('authenticated', 'true');
             window.location.href = this.succesRedirect;
         } else if (statusCode === 401) {
-            new Notification('danger', 'Tus credenciales son incorrectas');
+            new Notification('danger', 'Your credentials are not correct!');
         } else {
-            new Notification('danger', 'Tuvimos un error');
+            new Notification('danger', 'We had an error');
         }
     }
     static async register(user) {
@@ -30,7 +30,7 @@ export default class Auth {
             window.location.href = this.succesRedirect;
         }
         else if(response.status === 422) {
-            new Notification('danger', 'El correo ya está registrado.');
+            new Notification('danger', 'This email is register yet!');
         }
     }
     static disableLoginButton() {

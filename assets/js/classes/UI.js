@@ -38,4 +38,8 @@ export default class {
         })
         return html;
     }
+    static printSkillCard(){
+        let card='';
+        
+    }
 }
