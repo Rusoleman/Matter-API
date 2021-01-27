@@ -1,0 +1,21 @@
+:root {
+    --primary-blue-light: #e1e8f6;
+    --primary-blue-dark: #022163;
+    --bg-info: #e1e8f6;
+    --color-info: #022163;
+    --bg-warning: #fff3e0;
+    --bg-danger: #fce4ec;
+    --bg-success: #e4faf6;
+    --bg-side: #FC6700;
+    --text-side: ivory;
+}
+body {
+    background-color: #f7fbff;
+    font-family: 'Varela Round', sans-serif;
+}
+.title-font{
+    font-family: 'Righteous', cursive;
+}
+.margin-bottom {
+    margin-bottom:10px ;
+}

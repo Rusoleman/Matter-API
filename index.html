@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matter APP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="../assets/css/overrides.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+<script src="./assets/js/middlewares/authenticated.js"></script>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="card card-side">
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><a class="style-sidelist" href="/index.html"><i class="fas fa-igloo"></i> Home</a></li>
+                            <hr>
+                            <li><a class="style-sidelist" href="#"><i class="fas fa-user-friends"></i> Advisors</a></li>
+                            <hr>
+                            <li><a class="style-sidelist" href="/myskills.html"><i class="fas fa-bullseye"></i> Skills</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-matter">
+                    <div class="card-body">
+                        <form action="/" id="invitation-form">
+                            <h4 class="title-font">Send your feedback request!</h4>
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                              </div>
+                              <button type="submit" class="btn btn-primary rounded-pill btn-block">
+                                <span><i class="fas fa-paper-plane"></i></span>
+                                Send
+                              </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-side">
+                    <div class="card-body">
+                        <ul class="list-unstyled m-0">
+                            <div class="row justify-content-center">
+                                <div class="card-side-comp">
+                                    <li>
+                                        <p class="size-icon"><i class="fas fa-user-circle"></i></p>
+                                        <a class="style-sidelist" href="/profile.html"> Profile</a>
+                                    </li>
+                                </div>
+                            </div>
+                            <hr>
+                            <li>
+                                <a class="style-sidelist" href="/evaluate-skills.html"><i class="fas fa-address-book"></i> Evaluate skills</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a class="style-sidelist" href="/feedback.html"><i class="fas fa-user-check"></i> Feedback recibed</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./assets/js/main.js"></script>
+</body>
+</html>

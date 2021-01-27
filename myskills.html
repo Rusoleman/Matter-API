@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySkills</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="../assets/css/overrides.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<script src="./assets/js/middlewares/authenticated.js"></script>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card card-side">
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><a class="style-sidelist" href=""><i class="fas fa-igloo"></i> Home</a></li>
+                            <hr>
+                            <li><a class="style-sidelist" href=""><i class="fas fa-user-friends"></i> Advisors</a></li>
+                            <hr>
+                            <li><a class="style-sidelist" href=""><i class="fas fa-bullseye"></i> Skills</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <hr>
+                <div class="card card-matter">
+                    <div class="card-body">
+                        <div class="card-skill">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="score">
+                                <h2>90 <span>%</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <!--Space unnder left side-bar-->
+            </div>
+            <div class="col-md-8">
+                <hr>
+                <div class="card card-down">
+                    <div class="card-body">
+                        <h4 class="title-font">Add new skills!</h4>
+                        <p>Matter gathers feedback on the skills you add. 
+                        Select skills recommended by Matter or add your own custom skills.</p>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary btn-lg rounded-pill margin-bottom">Add!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <!--Space unnder left side-bar and add skills-->
+            </div>
+            <div class="col-md-8">
+                <hr>
+                <div class="card card-down">
+                    <div class="card-body">
+                        <h4 class="title-font">Skill feedback count:</h4>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./assets/js/myskills.js"></script>
+</body>
+</html>
